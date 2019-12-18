@@ -201,7 +201,7 @@ if __name__ == '__main__':
 ```
 ### 2. Manuales:
 
-### a) De usuarío
+### a) De usuario
 
 ### b) Técnico
 
@@ -211,7 +211,7 @@ if __name__ == '__main__':
 
 ### Maquina de Boltzmann:
 
-### ii. Diseños completos de la implementacion.
+### ii. Diseños completos de la implementación.
 
 ### Maquina de Cauchy:
 
