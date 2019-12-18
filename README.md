@@ -15,10 +15,11 @@ Análisis, diseño e implementación de las máquinas de Boltzmann y de Cauchy.
 
 ### 1. Código fuente la implementación (Completa).
 
-from __future__ import print_function
-import numpy as np
+
+``` fichero: ./boltzmann-machine.py```
 
 ```
+
 class RBM:
 
     def __init__(self, num_visible, num_hidden):
