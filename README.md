@@ -13,9 +13,9 @@ Análisis, diseño e implementación de las máquinas de Boltzmann y de Cauchy.
 
 ## Entregables
 
-### 1. Código fuente la implementación (Completa):
+### 1. Código fuente la implementación (Completa).
 
-### 2. Manuales
+### 2. Manuales:
 
 ### a) De usuarío
 
