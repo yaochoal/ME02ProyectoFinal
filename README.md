@@ -465,7 +465,7 @@ Para el desarrollo de la aplicación se utilizó la programación orientada a ob
 
 ### Maquina de Cauchy y Maquina de Boltzmann.
 
-### Escenario 1:
+### Escenario de pruebas:
 Primero inicializamos una de las maquinas 
 
 ```bm = BM(num_visible = 6, num_hidden = 2)```
