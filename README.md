@@ -20,7 +20,7 @@ Análisis, diseño e implementación de las máquinas de Boltzmann y de Cauchy.
 
 ```
 
-class RBM:
+class BM:
 
     def __init__(self, num_visible, num_hidden):
         self.num_hidden = num_hidden
@@ -84,7 +84,7 @@ class RBM:
             if self.debug_print:
                 print("Epoch %s: error es %s" % (epoch, error))
 
-        # Asumiendo que el RBM ha sido entrenado (para que se hayan aprendido los pesos de la red),
+        # Asumiendo que el RM ha sido entrenado (para que se hayan aprendido los pesos de la red),
         # ejecute la red en un conjunto de unidades visibles, para obtener una muestra de las unidades ocultas.
     def run_visible(self, data):
         # Parametros de entrada: data: Una matriz donde cada fila consiste en los estados de las unidades visibles.
@@ -113,7 +113,7 @@ class RBM:
         # de las unidades visibles en la matriz de datos que se pasa.
 
 
-        # Suponiendo que el RBM ha sido entrenado (para que se hayan aprendido los pesos de la red),
+        # Suponiendo que el BM ha sido entrenado (para que se hayan aprendido los pesos de la red),
         # ejecute la red en un conjunto de unidades ocultas, para obtener una muestra de las unidades visibles.
     def run_hidden(self, data):
         # Parametros de entrada: data: Una matriz donde cada fila consiste en los estados de las unidades ocultas.
@@ -190,7 +190,7 @@ class RBM:
 
 
 if __name__ == '__main__':
-    r = RBM(num_visible=6, num_hidden=2)
+    r = BM(num_visible=6, num_hidden=2)
     training_data = np.array(
         [[1, 1, 1, 0, 0, 0], [1, 0, 1, 0, 0, 0], [1, 1, 1, 0, 0, 0], [0, 0, 1, 1, 1, 0], [0, 0, 1, 1, 0, 0],
          [0, 0, 1, 1, 1, 0]])
@@ -204,8 +204,7 @@ if __name__ == '__main__':
 
 ```
 
-class RBM:
-
+class CM:
     def __init__(self, num_visible, num_hidden):
         self.num_hidden = num_hidden
         self.num_visible = num_visible
@@ -268,7 +267,7 @@ class RBM:
             if self.debug_print:
                 print("Epoch %s: error es %s" % (epoch, error))
 
-        # Asumiendo que el RBM ha sido entrenado (para que se hayan aprendido los pesos de la red),
+        # Asumiendo que el CM ha sido entrenado (para que se hayan aprendido los pesos de la red),
         # ejecute la red en un conjunto de unidades visibles, para obtener una muestra de las unidades ocultas.
     def run_visible(self, data):
         # Parametros de entrada: data: Una matriz donde cada fila consiste en los estados de las unidades visibles.
@@ -297,7 +296,7 @@ class RBM:
         # de las unidades visibles en la matriz de datos que se pasa.
 
 
-        # Suponiendo que el RBM ha sido entrenado (para que se hayan aprendido los pesos de la red),
+        # Suponiendo que el CM ha sido entrenado (para que se hayan aprendido los pesos de la red),
         # ejecute la red en un conjunto de unidades ocultas, para obtener una muestra de las unidades visibles.
     def run_hidden(self, data):
         # Parametros de entrada: data: Una matriz donde cada fila consiste en los estados de las unidades ocultas.
@@ -374,7 +373,7 @@ class RBM:
 
 
 if __name__ == '__main__':
-    r = RBM(num_visible=6, num_hidden=2)
+    r = CM(num_visible=6, num_hidden=2)
     training_data = np.array(
         [[1, 1, 1, 0, 0, 0], [1, 0, 1, 0, 0, 0], [1, 1, 1, 0, 0, 0], [0, 0, 1, 1, 1, 0], [0, 0, 1, 1, 0, 0],
          [0, 0, 1, 1, 1, 0]])
