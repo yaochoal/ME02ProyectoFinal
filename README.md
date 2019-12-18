@@ -25,8 +25,14 @@ Análisis, diseño e implementación de las máquinas de Boltzmann y de Cauchy.
 
 ### ii. Diseños completos de la implementacion.
 
-### iii. Escenarios de pruebas (2 por cada máquina)
+### iii. Escenarios de pruebas 
 
-### iv. Estudio comparativo del desempeño de los dos modelos.
+### Escenario 1:
 
-### 3. Presentación .pptx
+### Escenario 2:
+
+### iv. Estudio comparativo del desempeño de los modelos.
+
+### 3. Presentación.
+
+### 4. Referencias.
