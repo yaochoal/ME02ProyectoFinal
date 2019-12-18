@@ -369,7 +369,8 @@ class CM:
         #  la red estaba daydream.
 
     def _logistic(self, x):
-        return (1.0/2.0)+((1.0/pi)*np.arctan(x))
+    # Al poner la función de distribución de Boltzmann, se hace uso de la máquina de Boltzmann
+        return (1.0/2.0)+((1.0/pi)*np.arctan(x)) 
 
 
 if __name__ == '__main__':
