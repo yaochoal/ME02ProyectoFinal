@@ -482,3 +482,8 @@ Figura 8. Actualización matriz de pesos.
 ### 3. Presentación.
 
 ### 4. Referencias.
+- [C1.4 Stochastic neural networks](https://pdfs.semanticscholar.org/3c03/7ba6a431ed86d664af410b5fcfa64fbeaf21.pdf) 
+- [Introduction to Restricted Boltzmann Machines](http://blog.echen.me/2011/07/18/introduction-to-restricted-boltzmann-machines/)
+- [Deep Learning meets Physics: Restricted Boltzmann Machines Part I](https://towardsdatascience.com/deep-learning-meets-physics-restricted-boltzmann-machines-part-i-6df5c4918c15)
+- [Deep Learning meets Physics: Restricted Boltzmann Machines Part II](https://towardsdatascience.com/deep-learning-meets-physics-restricted-boltzmann-machines-part-ii-4b159dce1ffb)
+- [REDES NEURONALES ARTIFICIALES - Fundamentos, Modelos y aplicaciones pag.285-302](#)
