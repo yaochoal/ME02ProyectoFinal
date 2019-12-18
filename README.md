@@ -23,9 +23,25 @@ Análisis, diseño e implementación de las máquinas de Boltzmann y de Cauchy.
 
 ### i. Descripción detallada de modelo matemático que rige la implementación o las funciones en especial de los modelos estocásticos.
 
+### Maquina de Cauchy:
+
+### Maquina de Boltzmann:
+
 ### ii. Diseños completos de la implementacion.
 
+### Maquina de Cauchy:
+
+### Maquina de Boltzmann:
+
 ### iii. Escenarios de pruebas 
+
+### Maquina de Cauchy.
+
+### Escenario 1:
+
+### Escenario 2:
+
+### Maquina de Boltzmann.
 
 ### Escenario 1:
 
