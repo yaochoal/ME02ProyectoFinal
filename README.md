@@ -201,7 +201,7 @@ if __name__ == '__main__':
 ```
 ### 2. Manuales:
 
-### a) De usuario
+### a) Usuario
 
 ### b) Técnico
 
