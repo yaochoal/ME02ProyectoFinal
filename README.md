@@ -393,6 +393,7 @@ if __name__ == '__main__':
 Las máquinas restringidas de Boltzmann o máquina de Cauchy son redes neuronales que pertenecen a los modelos basados en energía, no son tan conocidas como las redes neuronales convolucionales, sin embargo, este tipo de redes han ganado popularidad recientemente en el contexto del premio Netflix en donde las máquinas de Cauchy han alcanzado un rendimiento impecable en filtrado colaborativo y han vencido a la competencia.
 
 ![Figura1](/img/figura1.png)
+
 Figura 1. Ejemplo máquina basada en energía
 
 ### Arquitectura
@@ -404,7 +405,9 @@ Las máquinas basadas en energía tienen una arquitectura bastante sencilla comp
 ### Un modelo basado en energía
 
 La energía no es un concepto que se asocie al aprendizaje de máquina de forma intuitiva al ser un concepto de la física; sin embargo, algunas arquitecturas de aprendizaje de máquina la noción de energía como métrica para medir la calidad de los modelos. Como uno de los principales objetivos del aprendizaje de máquina es codificar dependencias entre variables, la captura de estas dependencias se realiza al asociar una energía escalar a cada una de las configuraciones de las variables, las cuales sirven como una medida de compatibilidad. Una alta escala energética significa una baja compatibilidad, y un modelo basado en energía reduce el problema a la minimización de una función de energía predefinida y para una máquina basada en energía es la siguiente.
+
 ![Figura2](/img/figura2.png)
+
 Figura 2. Función de energía para una máquina basada en energía
 
 ### Un modelo probabilístico
@@ -412,16 +415,20 @@ Figura 2. Función de energía para una máquina basada en energía
 Este tipo de red neuronal se basa en un modelo probabilístico, en vez de asignar valores discretos asigna probabilidades, así la máquina estará en cierto estado en cierto instante temporal, los estados se refieren a los valores de las neuronas en las capa visible V y oculta H; y la probabilidad de ver un estado en específico de V y H, se da a través de la siguiente distribución conjunta. Además Z, indica la función de partición que no es más que la suma de todas las parejas de neuronas entre la capa visible V y la oculta H.
 
 ![Figura3](/img/figura3.png)
-Figura 3. Distribución de unión en una máquina restringida de Boltzmann
+
+Figura 3. Distribución de unión en una máquina restringida de Boltzmann.
+
 Esta distribución en física se conoce como la distribución de Boltzmann la cual le asigna a una partícula la probabilidad de ser observada en un estado con una energía E asociada, y en este caso se asocia la probabilidad de observar un estado de V y H, que depende de la energía total del modelo. Desafortunadamente es muy complejo el cálculo de estas probabilidades en la función de partición Z. Es más fácil aplicar calcular las probabilidades condicionadas al estado H dado el estado V y las probabilidades condicionadas de V dado el estado H.
 
 ![Figura4](/img/figura4.png)
-Figura 4. Probabilidades condicionadas para V y H
+
+Figura 4. Probabilidades condicionadas para V y H.
 
 Ahora, dadas la probabilidades condicionadas se deben tratar de cierta forma que cumplan con un concepto básico de una neurona, que esté en un estado binario de activación, ahora dada una capa visible V, la probabilidad de que se active una neurona de la capa H se rige bajo esta función dependiendo del tipo de máquina:
 
 ![Figura5](/img/figura5.png)
-Figura 5. Probabilidades de activar una neurona
+
+Figura 5. Probabilidades de activar una neurona.
 
 ### Entrenamiento
 
@@ -432,7 +439,8 @@ El entrenamiento de este tipo de máquinas se puede sintetizar a dos pasos.
 Este paso consiste en tener un vector V para poder predecir los valores ocultos H, luego usamos la probabilidad para obtener nuevos valores de entrada V, se repite el proceso k veces dando como resultado un vector de entrada V_k el cual es una recreación del vector original V_0
 
 ![Figura6](/img/figura6.png)
-Figura 6. Proceso de recreación de V_0 a V_k usando muestreo de Gibbs
+
+Figura 6. Proceso de recreación de V_0 a V_k usando muestreo de Gibbs.
 
 ### Divergencia por contraste
 
@@ -440,10 +448,13 @@ Por último, la actualización de la matriz de pesos ocurre durante el paso de d
 Los vectores V_0 y V_k son usados para calcular las probabilidades de activación de los valores ocultos H_0 y H_k. La diferencia entre el producto cruz de estas probabilidades con entradas V_0 y V_k dan como resultado el siguiente gradiente:
 
 ![Figura7](/img/figura7.png)
-Figura 7. Actualización de la gradiente de la matriz de pesos
+
+Figura 7. Actualización de la gradiente de la matriz de pesos.
 
 Usando este gradiente se puede calcular el peso actualizado usando esta ecuación.
-![Figura8](/img/figura8.png)
+
+![Figura8](/img/figura8.png).
+
 Figura 8. Actualización matriz de pesos.
 
 ### ii. Diseños completos de la implementación.
