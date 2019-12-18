@@ -459,9 +459,7 @@ Figura 8. Actualización matriz de pesos.
 
 ### ii. Diseños completos de la implementación.
 
-### Maquina de Cauchy:
-
-### Maquina de Boltzmann:
+Para el desarrollo de la aplicación se utilizó la programación orientada a objetos con el fin de reproducir fielmente los conceptos teóricos introducidos en la sección previa, a nivel código ambos tipos de máquinas tienen una estructura similar, el único cambio que tuvo fue la función de distribución de activación de una neurona, usando la distribución de Boltzmann o Cauchy para diferenciarlo. Durante el desarrollo de la aplicación se aprovechó de la existencia de la metodología Extreme Programming (XP), y herramientas de videoconferencia como Hangouts y Discord.
 
 ### iii. Escenarios de pruebas 
 
@@ -487,3 +485,4 @@ Figura 8. Actualización matriz de pesos.
 - [Deep Learning meets Physics: Restricted Boltzmann Machines Part I](https://towardsdatascience.com/deep-learning-meets-physics-restricted-boltzmann-machines-part-i-6df5c4918c15)
 - [Deep Learning meets Physics: Restricted Boltzmann Machines Part II](https://towardsdatascience.com/deep-learning-meets-physics-restricted-boltzmann-machines-part-ii-4b159dce1ffb)
 - [REDES NEURONALES ARTIFICIALES - Fundamentos, Modelos y aplicaciones pag.285-302](#)
+- [Restricted Boltzmann Machines for Collaborative Filtering](https://www.cs.toronto.edu/~rsalakhu/papers/rbmcf.pdf)
