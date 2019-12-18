@@ -463,7 +463,8 @@ Para el desarrollo de la aplicación se utilizó la programación orientada a ob
 
 ### iii. Escenarios de pruebas 
 
-### Maquina de Cauchy y Maquina de Boltzmann.
+### Máquina de Cauchy y Máquina de Boltzmann.
+
 Primero inicializamos una de las maquinas 
 
 ```bm = BM(num_visible = 6, num_hidden = 2)```
@@ -472,7 +473,7 @@ o
 
 ```cm = CM(num_visible = 6, num_hidden = 2)```
 
-posteriormente entrenamos la maquina.
+posteriormente entrenamos la máquina.
 ```training_data = np.array([[1,1,1,0,0,0],[1,0,1,0,0,0],[1,1,1,0,0,0],[0,0,1,1,1,0], [0,0,1,1,0,0],[0,0,1,1,1,0]])```
 Donde una matriz de 6x6 es donde cada fila es un ejemplo de entrenamiento y la columna es una unidad visible
 
@@ -481,6 +482,9 @@ No ejecutar el entrenamiento durante más de 5000 épocas o se saturara por memo
 y luego ejecutamos el compilador de Python.
 ```./cauchy-machine.py``` o ```./boltzmann-machine.py```
 ### iv. Estudio comparativo del desempeño de los modelos.
+
+Desafortunadamente, no se pudo presentar un caso concreto por limitantes computacionales para la ejecución de este programa, ya que este tipo de código requiere tener una GPU de alta gama y RAM de bastante capacidad (>16 GB), como contramedida se opta por una pequeña prueba con pocas variables.
+Después de varias iteraciones, se pudo concluir que la máquina de Cauchy efectivamente es una versión mejorada de la máquina de Boltzmann ya que la diferencia radica en las épocas utilizadas para poder empezar a inferir patrones en el comportamiento, mientras que aplicando Boltzmann se demora 50~60 épcas para asegurar un aprendizaje e infiera comportamientos; en cambio, aplicando Cauchy este toma entre 20 y 30 épocas para asegurar el aprendizaje.
 
 ### 3. Presentación.
 
