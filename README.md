@@ -463,18 +463,25 @@ Para el desarrollo de la aplicación se utilizó la programación orientada a ob
 
 ### iii. Escenarios de pruebas 
 
-### Maquina de Cauchy.
+### Maquina de Cauchy y Maquina de Boltzmann.
 
 ### Escenario 1:
+Primero inicializamos una de las maquinas 
 
-### Escenario 2:
+```bm = BM(num_visible = 6, num_hidden = 2)```
 
-### Maquina de Boltzmann.
+o
 
-### Escenario 1:
+```cm = CM(num_visible = 6, num_hidden = 2)```
 
-### Escenario 2:
+posteriormente entrenamos la maquina.
+```training_data = np.array([[1,1,1,0,0,0],[1,0,1,0,0,0],[1,1,1,0,0,0],[0,0,1,1,1,0], [0,0,1,1,0,0],[0,0,1,1,1,0]])```
+Donde una matriz de 6x6 es donde cada fila es un ejemplo de entrenamiento y la columna es una unidad visible
 
+```cm.train (training_data, max_epochs = 5000)```
+No ejecutar el entrenamiento durante más de 5000 épocas o se saturara por memoria.
+y luego ejecutamos el compilador de Python.
+```./cauchy-machine.py``` o ```./boltzmann-machine.py```
 ### iv. Estudio comparativo del desempeño de los modelos.
 
 ### 3. Presentación.
