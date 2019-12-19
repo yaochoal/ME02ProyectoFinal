@@ -371,7 +371,7 @@ class CM:
 
     def _logistic(self, x):
     # Al poner la función de distribución de Cauchy, se hace uso de la máquina de Cauchy
-        return (1.0/2.0)+((1.0/pi)*np.arctan(x)) 
+        return (1.0/2.0)+((1.0/np.pi)*np.arctan(x)) 
 
 
 if __name__ == '__main__':
@@ -482,6 +482,7 @@ No ejecutar el entrenamiento durante más de 5000 épocas o se saturara por memo
 y luego ejecutamos el compilador de Python.
 ```./cauchy-machine.py``` o ```./boltzmann-machine.py```
 ![prueba](/img/prueba.jpg)
+![prueba](/img/prueba1.jpg)
 ### iv. Estudio comparativo del desempeño de los modelos.
 
 Desafortunadamente, no se pudo presentar un caso concreto por limitantes computacionales para la ejecución de este programa, ya que este tipo de código requiere tener una GPU de alta gama y RAM de bastante capacidad (>16 GB), como contramedida se opta por una pequeña prueba con pocas variables.
