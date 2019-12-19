@@ -481,6 +481,7 @@ Donde una matriz de 6x6 es donde cada fila es un ejemplo de entrenamiento y la c
 No ejecutar el entrenamiento durante más de 5000 épocas o se saturara por memoria.
 y luego ejecutamos el compilador de Python.
 ```./cauchy-machine.py``` o ```./boltzmann-machine.py```
+![prueba](/img/prueba.jpg)
 ### iv. Estudio comparativo del desempeño de los modelos.
 
 Desafortunadamente, no se pudo presentar un caso concreto por limitantes computacionales para la ejecución de este programa, ya que este tipo de código requiere tener una GPU de alta gama y RAM de bastante capacidad (>16 GB), como contramedida se opta por una pequeña prueba con pocas variables.
