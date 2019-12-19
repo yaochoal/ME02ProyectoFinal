@@ -487,6 +487,20 @@ Desafortunadamente, no se pudo presentar un caso concreto por limitantes computa
 Después de varias iteraciones, se pudo concluir que la máquina de Cauchy efectivamente es una versión mejorada de la máquina de Boltzmann ya que la diferencia radica en las épocas utilizadas para poder empezar a inferir patrones en el comportamiento, mientras que aplicando Boltzmann se demora 50~60 épocas para asegurar un aprendizaje e infiera comportamientos; en cambio, aplicando Cauchy este toma entre 20 y 30 épocas para asegurar el aprendizaje.
 
 ### 3. Presentación.
+![slide1](/img/pp1.jpg)
+![slide2](/img/pp2.jpg)
+![slide3](/img/pp3.jpg)
+![slide4](/img/pp4.jpg)
+![slide5](/img/pp5.jpg)
+![slide6](/img/pp6.jpg)
+![slide7](/img/pp7.jpg)
+![slide8](/img/pp8.jpg)
+![slide9](/img/pp9.jpg)
+![slide10](/img/pp10.jpg)
+![slide11](/img/pp11.jpg)
+![slide12](/img/pp12.jpg)
+![slide13](/img/pp13.jpg)
+![slide14](/img/pp14.jpg)
 
 ### 4. Referencias.
 - [C1.4 Stochastic neural networks](https://pdfs.semanticscholar.org/3c03/7ba6a431ed86d664af410b5fcfa64fbeaf21.pdf) 
