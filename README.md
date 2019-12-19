@@ -1,4 +1,4 @@
-# ME02 : Proyecto Final NS3.
+# ME02 : Proyecto Final.
 
 ## Propósito
 
