@@ -388,6 +388,14 @@ if __name__ == '__main__':
 
 ### a) Usuario
 
+#### Requerimientos.
+
+- Python 3.6
+
+Para ejecutar el código se realiza con el comando
+```./cauchy-machine.py``` o ```./boltzmann-machine.py```
+respectivamente para ejecutar cada ejemplo.
+
 ### b) Técnico
 
 Las máquinas restringidas de Boltzmann o máquina de Cauchy son redes neuronales que pertenecen a los modelos basados en energía, no son tan conocidas como las redes neuronales convolucionales, sin embargo, este tipo de redes han ganado popularidad recientemente en el contexto del premio Netflix en donde las máquinas de Cauchy han alcanzado un rendimiento impecable en filtrado colaborativo y han vencido a la competencia.
